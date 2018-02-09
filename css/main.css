@@ -41,3 +41,22 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+hero {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 5%;
+}
+
+#hero{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+}
+
+#header{
+    height: 70px;
+    line-height: 60px;
+    background: #f0632c;
+    opacity: .86;
+}
