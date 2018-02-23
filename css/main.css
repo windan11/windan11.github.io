@@ -1,23 +1,31 @@
-/*hero section---------------------*/
+/*Hero section------------------------------------------*/
+body{
+	background: #619AB8;
+}
 .container{
 	margin: 0 auto;
 	width: 100%;
-	padding: 0 5%;
+	padding: 0 8%;
 }
 .hero{
 	padding: 0;
 	min-height: 700px;
-	text-align: center;
 	position: relative;
-	color: #000;
 }
 .big-font{
-	font-size: 5em;
+	font-size: 4em;
+	font-family: 'Josefin Sans', sans-serif;
 	padding-bottom: 40px;
 }
-.hero h2{
+.hero h3{
 	font-size: 1.4em;
-	line-height: 1.6em;
+	font-family: 'Merriweather', serif;
+	line-height: 1.4em;
+}
+.text{
+	background: rgba(255,255,255,0.6); 
+	display: inline;
+	line-height: 46px;
 }
 .centered{
 	position: absolute;
@@ -29,189 +37,3 @@
 	-o-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 }
-*, 
-:after, 
-:before{
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-}
-#scroll-down{
-	opacity: 0.9;
-	position: absolute;
-	bottom: 160px;
-	left: 50%;
-	display: block; 
-	z-index: 2;
-	
-
-	-webkit-animation: bounce 2s infinite 2s;
-	animation: bounce 2s infinite 2s;
-}
-#scroll-down:before{
-	position: absolute;
-	top: calc(50% - 8px);
-	left: calc(50% - 6px);
-	transform: rotate(-45deg);
-	display: block;
-	width: 25px;
-	height: 25px;
-	content: "";
-	border-radius: 8%;
-	border: 12px solid black;
-	border-width: 0 0 4px 4px;
-}
-#scroll-up{
-	position: fixed;
-	transform: rotate(135deg);
-	display: none;
-	margin: 0;
-	bottom: 2%;
-	right: 3%;
-	width: 25px;
-	height: 25px;
-	border-radius: 8%;
-	border: 12px solid #000;
-	border-width: 0 0 4px 4px;
-	
-	z-index: 100;
-}
-@keyframes bounce{
-	0%,
-	100%,
-	20%,
-	50%,
-	80%{
-		-webkit-transform: translateY(0);
-		-ms-transform: translateY(0);
-		transform: translateY(0);
-	}
-	40%{
-		-webkit-transform: translateY(-10px);
-		-ms-transform: translateY(-10px);
-		transform: translateY(-10px);
-	}
-	60%{
-		-webkit-transform: translateY(-5px);
-		-ms-transform: translateY(-5px);
-		transform: translateY(-5px);
-	}
-}
-/*logo and navigation links------------------------------*/
-#header{
-	height: 70px;
-	line-height: 60px;
-	opacity: .86;
-}
-#header .container{
-	position: relative;
-}
-#header h1{
-	padding: 10px 20px;
-	top: 0px;
-	margin: 0px;
-	text-transform: uppercase;
-	color: #fff;
-	font-size: 2.6em;
-}
-nav{
-	position: absolute;
-	right: 20px;
-	top: 10px;
-	height: 60px;
-}
-nav ul li{
-	float: left;
-	list-style: none;
-}
-nav ul li a{
-	display: block;
-	text-decoration: none;
-	padding: 0 10px;
-	color: #fff;
-}
-nav ul li a:hover{
-	color: #000;
-}
-/*portfolio ---------------------------------------*/
-#portfolio{
-	text-align: center;
-}
-#portfolio .container{
-	padding-top: 3.6em;
-	height: 300px;
-	font-size: 2em;
-	text-align: center;
-}
-.row-two{
-	padding-bottom: 200px;
-}
-
-
-/*about me -----------------------------------------*/
-.about-me{
-	padding: 8% 8%;
-	min-height: 640px;
-	text-align: center;
-}
-.about-me h5{
-	font-size: 1.8em;
-	padding-bottom: 5%;
-}
-.about-me p{
-	margin: 0 auto;
-	width: 80%;
-	padding-top: 5%;
-	font-size: 1em;
-	line-height: 1.5em;
-}
-.profile{
-	padding: 2%;
-	display:inline-block;
-	text-align: center;
-	background: url("..profile-pic.png") no-repeat;
-	background-size: cover;
-	width: 200px;
-	height: 200px;
-	border-radius: 50%;
-}
-
-/*contact form------------------------------------------*/
-.contact-me{
-	opacity: .86;
-	min-height: 640px;
-	width: 100%;
-}
-/*social media------------------------*/
-.social-media{
-	display: inline-block;
-	float: left;
-	width: 34%;
-	margin: 10% 0 0 12%;
-}
-.social-media h5, .social-media p{
-	color: #fff;
-	font-size: 2.1em;
-	padding-bottom: 1.8em;
-}
-/*footer-------------------------------------*/
-footer{
-	margin: 0 auto;
-	padding-top: .9em;
-	width: 100%;
-	height: 2.8em;
-	text-align: center;
-	border-top: 1px solid #d5d5d5;
-	font-size: .8em;
-}
-#med-font{
-	font-size: 1em;
-}
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
-ul.posts li {
-    list-style: none;
-}
-
