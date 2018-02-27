@@ -4,22 +4,19 @@ body{
 }
 .container{
 	margin: 0 auto;
-	width: 84%;
-	padding: 0 8%;
+	width: 80%;
+	padding: 4% 8%;
 }
-.hero{
-	padding: 0;
+.intro{
 	min-height: 600px;
-	position: relative;
 }
-.big-font{
+h1{
 	font-size: 4em;
-	font-family: 'Josefin Sans', sans-serif;
 	padding-bottom: 40px;
 }
-.hero h3{
+h3{
 	font-size: 1.4em;
-	font-family: 'Merriweather', serif;
+
 	line-height: 1.4em;
 }
 .text{
@@ -27,13 +24,30 @@ body{
 	display: inline;
 	line-height: 46px;
 }
-.centered{
-	position: absolute;
-	top: 40%;
-	left: 50%;
-	-webkit-transform: translate(-50%, -50%);
-	-moz-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	-o-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
+nav{
+	height: 60px;
+	line-height: 30px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 999;
+	background: #000;
+}
+#nav{
+	text-align: center;
+}
+#nav ul li{
+	padding: 0 2em;
+	display: inline-block;
+	list-style: none;
+}
+#nav ul li a{
+	display: block;
+	text-decoration: none;
+	padding: 0 10px;
+	color: #fff;
+}
+#nav ul li a:hover{
+	color: #C0D7E3;
 }
