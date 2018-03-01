@@ -73,7 +73,7 @@ p{
 .work-item li{
 	display: inline-block;
 	position: relative;
-	height: 250px;
+	margin: 0.8em;
 }
 .work-item li img{
 	width: 100%;
@@ -94,7 +94,6 @@ p{
 }
 .work-item li:hover .work-detail{
 	opacity: 1;
-	background-size: cover;
 }
 .vertical-centered{
 	text-align: center;
@@ -110,6 +109,7 @@ p{
 /*Contact----------------*/
 .contact{
 	padding: 80px 0;
+	height: 360px;
 }
 .contact .container{
 	text-align: center;
