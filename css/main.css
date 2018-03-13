@@ -1,5 +1,8 @@
+html{
+	background: #E8D8D2;
+}
 body{
-	margin: 0 auto;
+	margin: 1.6em;
 }
 h1, h2, h3, h4, h5, h6{
 	font-family: 'Roboto', sans-serif;
@@ -12,18 +15,17 @@ p, a{
 	margin: 0 auto;
 }
 /*navigation---------------*/
-.header{
-	padding: 0 12%;
-	-webkit-transition: top .3s;
-	transition: top .3s;
-}
 .logo{
 	float: left;
 	font-size: 2.4em;
 	text-transform: uppercase;
 	padding: 0.4em 0;
+	color: #000;
 }
 .header-container{
+	padding: 0 12%;
+	-webkit-transition: top .3s;
+	transition: top .3s;
 	text-align: center;
 }
 .header-container  nav{
@@ -36,58 +38,71 @@ p, a{
 	display: inline-block;
 	padding: 2.5em 0.42em;
 	text-decoration: none;
-	color: #000;
 	opacity: 0.9;
+	color: #000;
 }
 .header-container nav a:hover{
 	opacity: 0.6;
 }
 .divider{
-	height: 80px;
+	height: 20px;
 	display: none;
 }
 /*Intro---------------------------*/
 .intro{
-	padding: 11.2em 0 8em;
+	padding: 10em 0;
 	line-height: 4.4em;
 	height: 80%;
-	border-bottom: 2px solid #F9F9FB;
 }
 .intro h1{
 	font-size: 1.8em;
-	color: #212121;
 }
 .dashed{
 	border-bottom: 2px dashed #000;
 }
+/*about-----------------*/
+.about{
+	padding: 2em 0 16em 0;
+}
+.about h2{
+	padding: .8em 0;
+	font-size: 1.6em;
+}
+.about img.right{
+	float: right;
+	padding: .8em 4em;
+}
 /*Portfolio---------------------*/
 .portfolio{
+	margin: 1.6em 0;
 	padding: 3em 0;
-	background: #F9F9FB;
+	/*border-bottom: 1px solid rgba(0,16,36,.18);*/
 }
-.portfolio h2{
+.portfolio h2, .portfolio h3{
 	text-align: center;
-	padding: 0 0 2em 0;
+	font-weight: normal;
 }
+/*.portfolio .container:nth-child(even){
+	background: #F8F8F8;
+}*/
 .clearfix{
-	margin: 2em auto;
 	clear: both;
-	padding: 2em;
+	padding: 10em 0;
 }
-.work-item img.right{
+.clearfix img.right{
 	margin: 0;
 	float: right;
-	width: 50%;
+	width: 44%;
 	height: auto;
-	padding: 0 0 2em 2em;
+	padding: 0 0 2em 4em;
 }
-.work-item img.left{
+.clearfix img.left{
 	float: left;
-	width: 50%;
+	width: 44%;
 	height: auto;
-	padding: 0 2em 2em 0;
+	padding: 0 4em 2em 0;
 }
-.work-item h4{
+.clearfix h4{
 	margin: 0;
 	font-size: 1.4em;
 }
@@ -96,24 +111,30 @@ p, a{
 	clear: both; 
 	display: table;
 }
-/*about-----------------*/
-.about{
-	padding: 8em 0;
-}
-/*Contact----------------*/
-.contact{
-	padding: 4em 0 12em 0;
-	background: #F9F9FB;
-}
-.contact .container{
+.row{
 	text-align: center;
-}
-.contact h3{
-	font-size: 1.4em;
 	padding: 2em 0;
 }
+.launch-btn{
+	background: #FECE00;
+	padding: .7em 2.6em;
+	color: #fff;
+	text-decoration: none;
+}
+/*contact--------------*/
+.contact{
+	padding: 2em 0 16em 0;
+	text-align: center;
+}
+.contact h2{
+	font-size: 2.44em;
+}
+.contact h3{
+	font-weight: normal;
+	padding: .4em 0 1.6em 0;
+}
 #contact-btn{
-	background: #536DFE;
+	background: #2F60A2;
 	border: none;
 	border-radius: 1.8em;
 	padding: .72em 2.2em;
@@ -124,7 +145,7 @@ p, a{
 #contact-btn:hover{
 	color: #000;
 }
-/*scroll down button----*/
+/*scroll button----*/
 #scroll-up{
 	position: fixed;
 	transform: rotate(135deg);
@@ -140,11 +161,11 @@ p, a{
 }
 /*footer----------------*/
 footer{
-	border-top: 2px solid #F9F9FB;
 	text-align: center;
+	padding: 1em;
 }
 svg{
-	padding: 1.2em;
+	padding: 0 1em;
 	width: 1.8em;
 	height: 1.8em;
 }
@@ -153,61 +174,4 @@ svg{
 }
 .icon:hover{
 	pointer: cursor;
-}
-
-/*Adding responsiveness*/
-@media all and (max-width: 42em) {
-	/*header, nav & intro---*/
-	.container{
-		padding: 0 2.6em;
-	}
-	.header {
-		padding: 1em 0 0 0;
-	}
-	.logo {
-		float: none;
-		font-size: 1.88em;
-	}
-	.header-container nav {
-		float: none;
-	}
-	.header-container nav a {
-		font-size: 0.9em;
-		padding: 0.6em;
-	}
-	.intro{
-		font-size: 0.7em;
-		padding: 4em 0 6em 0;
-	}
-	/*portfolio & about------------*/
-	.portfolio, .about{
-		padding: 4em 0;
-	}
-	.clearfix{
-		margin: 2em auto;
-		clear: both;
-		padding: 0;
-	}
-	.work-item img.right, .work-item img.left{
-		width: 100%;
-		height: auto;
-	}
-	/*contact & footer-----*/
-	.contact{
-		padding: 4em 0 7em 0;
-	}
-	#contact-btn{
-		padding: 0.6em 1.6em;
-		font-size: 14px;
-	}
-	#scroll-up{
-		bottom: 4%;
-		right: 8%;
-		width: .88em;
-		height: .88em;
-		border-width: 0 0 .18em .18em;
-	}
-	footer{
-		padding: 1em 0;
-	}
 }
