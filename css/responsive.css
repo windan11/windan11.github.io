@@ -1,0 +1,78 @@
+/*Adding responsiveness to website for mobile-users*/
+@media all and (max-width: 44em) {
+	body{
+		margin: .68em;
+	}
+	/*header, nav & intro---*/
+	.container{
+		padding: 0 2.6em;
+	}
+	header {
+		padding: 1em 0 0 0;
+	}
+	.logo {
+		float: none;
+		font-size: 1.88em;
+	}
+	.header-container nav {
+		float: none;
+	}
+	.header-container nav a {
+		font-size: 0.9em;
+		padding: 0.6em;
+	}
+	.intro{
+		font-size: 0.8em;
+		padding: 4em 1em 6em 1em;
+	}
+	.intro h1{
+		font-size: 1.8em;
+	}
+	/*portfolio & about------------*/
+	.about, .portfolio{
+		padding: 6em 0;
+	}
+	.about img.right{
+		padding: 0 2em 6em 2em;
+	}
+	.portfolio h2{
+		font-size: 1.6em;
+	}
+	.clearfix{
+		clear: both;
+		padding: 2.4em 0;
+	}
+	.clearfix img.right, .clearfix img.left{
+		width: 100%;
+		height: auto;
+		padding: 2em 0;
+	}
+	.launch-btn{
+		padding: 0.6em 2.2em;
+		font-size: 14px;
+	}
+	/*contact-----------------*/
+	.contact{
+		padding: 2em 0 8em 0;
+	}
+	.contact h2{
+		font-size: 1.8em;
+	}
+	.contact h3{
+		font-size: 1em;
+	}
+	#contact-btn{
+		padding: 0.6em 1.6em;
+		font-size: 14px;
+	}
+	#scroll-up{
+		bottom: 4%;
+		right: 8%;
+		width: .88em;
+		height: .88em;
+		border-width: 0 0 .18em .18em;
+	}
+	footer{
+		padding: 1em 0;
+	}
+}
