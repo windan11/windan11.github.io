@@ -5,11 +5,12 @@
 			<title>{{ page.title }}</title>
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
-			<link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+			<link rel="stylesheet" type="text/css" href="/css/responsive.css">
+			<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
 		</head>
 		<body>
-			<div class="main">
-			<header class="header nav-down">
+			<a id="home"></a>
+			<header>
 				<div class="header-container">
 					<a href="index.html" class="logo">at.</a>
 					<nav>
@@ -21,7 +22,7 @@
 			</header>
 				
 			<div class="divider"></div>
-				
+	
 			<a id="intro"></a>	
 			<section class="intro">
 				<div class="container">
@@ -32,59 +33,60 @@
 				</div>
 			</section>
 			
-			<section class="portfolio">
-				<a id="portfolio"></a>
+			<a id="about"></a>
+			<section class="about">
 				<div class="container">
-					<h2>Recent projects</h2>
-					<div class="work-item">
-						<div class="clearfix">
-							<img src="assets/todo.png" class="right" alt="screenshot of project 1">
-							<h4>To-Do List</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-						</div>
-						<div class="clearfix">
-							<img src="assets/quote.png" class="left" alt="screenshot of project 2">
-							<h4>Random Quote</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-						</div>
-						<div class="clearfix">
-							<img src="assets/neon.png" class="right" alt="screenshot of project 3">
-							<h4>Neon Sign</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-						</div>
-						<div class="clearfix">
-							<img src="assets/todo.png" class="left" alt="screenshot of project 4">
-							<h4>Weather API</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-						</div>
-						<div class="clearfix">
-							<img src="assets/quote.png" class="right" alt="screenshot of project 5">
-							<h4>Demo Website</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-						</div>
-						<div class="clearfix">
-							<img src="assets/postcard.png" class="left" alt="screenshot of project 6">
-							<h4>Postcard</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-						</div>
-					</div>
+					<img src="assets/profile.png" class="right" alt="profile picture">
+					<h2>A little bit about me...</h2>
+					<p>I enjoy creating from an idea and seeing a project comes to life, hence my switch to web development.</p>
+					<p>When I'm not working on projects and teaching myself coding, I enjoy catching up with family and friends over dinners, gatherings, or small hangouts. I strive to be a lifelong student and gain wisdoms from books, strangers, family or friends. Sometimes, you can find me spewed out random wisdom I learned.</p>
 				</div>
 			</section>
 			
-			<section class="about">
+			<a id="portfolio"></a>
+			<section class="portfolio">
+				<h2>Recent projects</h2>
+				<h3>Selected projects from this past year</h3>
 				<div class="container">
-					<h2>A little bit about me...</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<div class="clearfix">
+						<img src="assets/todo.png" class="right" alt="screenshot of project 1">
+						<h4>To-Do List</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div class="clearfix">
+						<img src="assets/quote.png" class="left" alt="screenshot of project 2">
+						<h4>Random Quote</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div class="clearfix">
+						<img src="assets/neon.png" class="right" alt="screenshot of project 3">
+						<h4>Neon Sign</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div class="clearfix">
+						<img src="assets/todo.png" class="left" alt="screenshot of project 4">
+						<h4>Weather API</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div class="clearfix">
+						<img src="assets/quote.png" class="right" alt="screenshot of project 5">
+						<h4>Demo Website</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div class="clearfix">
+						<img src="assets/postcard.png" class="left" alt="screenshot of project 6">
+						<h4>Postcard</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
 				</div>
 			</section>
 				
+			<a id="contact"></a>
 			<section class="contact">
-				<a id="contact"></a>
 				<div class="container">
-					<h3>If you like my work, let's get in touch.</h3>
-					<a href="mailto:athach28@gmail.com">
-						<a id="contact-btn" href="#">Contact Me</a>
-					</a>
+					<h2>Get In Touch</h2>
+					<h3>Each day, I focused on building and learning best practices in my projects. If you like what you see, let's talk.</h3>
+					<a id="contact-btn" href="mailto:athach28@gmail.com">Contact Me</a>
 				</div>
 			</section>
 				
