@@ -1,7 +1,7 @@
 /*Adding responsiveness to website for mobile-users*/
 @media all and (max-width: 44em) {
 	body{
-		margin: .68em;
+		margin: .6em auto;
 	}
 	/*header, nav & intro---*/
 	.container{
@@ -23,17 +23,17 @@
 	}
 	.intro{
 		font-size: 0.8em;
-		padding: 4em 1em 6em 1em;
+		padding: 4em .6em;
 	}
 	.intro h1{
-		font-size: 1.8em;
+		font-size: 1.68em;
 	}
 	/*portfolio & about------------*/
 	.about, .portfolio{
 		padding: 6em 0;
 	}
 	.about img.right{
-		padding: 0 2em 6em 2em;
+		padding: 2.2em 2.2em 4em 4em;
 	}
 	.portfolio h2{
 		font-size: 1.6em;
