@@ -94,7 +94,7 @@ p{
 	height: auto;
 	padding: 0 4em 2em 0;
 }
-.portfolio .container:nth-child(odd){
+.portfolio .container:nth-child(even){
 	background: #F5F7F9;
 }
 .clearfix h4{
