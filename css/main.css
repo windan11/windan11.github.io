@@ -71,7 +71,6 @@ p, a{
 }
 /*Portfolio---------------------*/
 .portfolio{
-	background: #F5F7F9;
 	margin: 1.6em 0;
 	padding: 3em 0;
 }
@@ -79,8 +78,12 @@ p, a{
 	text-align: center;
 	font-weight: normal;
 }
+.portfolio h2{
+	font-size: 1.84em;
+}
 .portfolio h3{
 	color: #52616a;
+	padding: 0 0 2em 0;
 }
 .clearfix{
 	clear: both;
@@ -98,6 +101,9 @@ p, a{
 	width: 44%;
 	height: auto;
 	padding: 0 4em 2em 0;
+}
+.portfolio .container:nth-child(even){
+	background: #F5F7F9;
 }
 .clearfix h4{
 	margin: 0;
