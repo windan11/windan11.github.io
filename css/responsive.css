@@ -1,4 +1,4 @@
-/*Adding responsiveness to website for mobile-users*/
+/*Adding responsiveness to website for mobile, tablet, and ipad*/
 @media all and (max-width: 44em) {
 	body{
 		margin: .6em auto;
@@ -12,7 +12,7 @@
 	}
 	.logo {
 		float: none;
-		font-size: 1.88em;
+		font-size: 2em;
 	}
 	.header-container nav {
 		float: none;
@@ -26,7 +26,7 @@
 		padding: 4em .6em;
 	}
 	.intro h1{
-		font-size: 1.68em;
+		font-size: 2.64em;
 	}
 	/*portfolio & about------------*/
 	.about, .portfolio{
@@ -35,14 +35,20 @@
 	.about img.right{
 		padding: 2.2em 2.2em 4em 4em;
 	}
-	.portfolio h2{
+	.about h2, .portfolio h2{
 		font-size: 1.6em;
+	}
+	.about p{
+		font-size: 1.2em;
+	}
+	.portfolio h4{
+		font-size: 1.28em;
 	}
 	.portfolio h4{
 		font-size: 1.28em;
 	}
 	.portfolio p{
-		font-size: .96em;
+		font-size: .98em;
 	}
 	.clearfix{
 		clear: both;
@@ -68,7 +74,7 @@
 		font-size: 1em;
 	}
 	#contact-btn{
-		padding: 0.6em 1.6em;
+		padding: .6em 1.6em;
 		font-size: 14px;
 	}
 	#scroll-up{
@@ -81,6 +87,12 @@
 	footer{
 		padding: 1em 0;
 	}
+	svg{
+		padding: .4em .6em;
+		width: 1.02em;
+		height: 1.02em;
+	}
 	footer span{
 		font-size: .6em;
+	}
 }
