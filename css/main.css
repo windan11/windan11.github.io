@@ -89,7 +89,7 @@ p, a{
 	clear: both;
 	padding: 7.2em 0;
 }
-.portfolio .container:nth-child(even){
+.portfolio .container:nth-child(odd){
 	background: #F5F7F9;
 }
 .clearfix img.right{
