@@ -89,6 +89,9 @@ p, a{
 	clear: both;
 	padding: 7.2em 0;
 }
+.portfolio .container:nth-child(even){
+	background: #F5F7F9;
+}
 .clearfix img.right{
 	margin: 0;
 	float: right;
@@ -101,9 +104,6 @@ p, a{
 	width: 44%;
 	height: auto;
 	padding: 0 4em 2em 0;
-}
-.portfolio .container:nth-child(even){
-	background: #F5F7F9;
 }
 .clearfix h4{
 	margin: 0;
