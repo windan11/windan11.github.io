@@ -2,11 +2,11 @@
 @media all and (max-width: 44em) {
 	body{
 		margin: .6em auto;
-	}
-	/*header, nav & intro---*/
+	}	
 	.container{
 		padding: 0 4%;
 	}
+	/*intro------------------------------------*/
 	.intro{
 		padding: 4em .6em;
 	}
@@ -19,10 +19,12 @@
 		margin: 0 auto;
 	}
 	#contact-btn{
+		width: 8em;
+		margin: .8em 0;
 		display: block;
-		padding: .8em 0;
+		padding: .8em;
 	}
-	/*portfolio & about------------*/
+	/*portfolio-------------------------------*/
 	.portfolio{
 		padding: 4.4em 0;
 	}
@@ -51,11 +53,11 @@
 		font-size: 14px;
 	}
 	#scroll-up{
-		bottom: 4%;
-		right: 8%;
+		bottom: 10%;
+		right: 4%;
 		width: .88em;
 		height: .88em;
-		border-width: 0 0 .18em .18em;
+		font-size: 1.48em;
 	}
 	footer{
 		padding: 1em 0;
