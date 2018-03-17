@@ -15,13 +15,16 @@ p{
 	font-size: 1.14em;
 	color: #52616A;
 }
+a{
+	text-decoration: none;
+}
 .container{
 	padding: 0 8%;
 	margin: 0 auto;
 }
 /*Intro---------------------------*/
 .intro{
-	padding: 6em 6em 9em 6em;
+	padding: 7em 6em 9em 6em;
 }
 .intro h1{
 	font-size: 2.4em;
@@ -30,17 +33,19 @@ p{
 .intro img.right{
 	float: right;
 	padding: 0 2em;
-	margin: .6em 0 4em 0;
+	margin: 0 0 6em 0;
 }
 .intro .row{
 	padding: 2em 0;
 }
-.intro a{
-	text-decoration: none;
+.intro .fa{
+	padding: 0 .4em;
 }
 #contact-btn{
 	margin: 0 2.4em 0 0;
-	color: #000;
+	border: 1px solid #52616A;
+	padding: .64em;
+	color:  #52616A;
 }
 #contact-btn:hover{
 	color: #000;
@@ -85,22 +90,15 @@ p{
 }
 .launch{
 	padding: .7em 0;
-	text-decoration: none;
 	color: #000;
 }
 /*scroll button----*/
 #scroll-up{
 	position: fixed;
-	transform: rotate(135deg);
-	display: none;
 	margin: 0;
 	bottom: 4%;
 	right: 4%;
-	width: 1.38em;
-	height: 1.38em;
-	border-radius: 8%;
-	border: 2px solid #000;
-	border-width: 0 0 .2em .2em;
+	font-size: 2em;
 }
 /*footer----------------*/
 footer{
