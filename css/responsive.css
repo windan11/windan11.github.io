@@ -1,7 +1,8 @@
 /*Adding responsiveness to website for mobile-users*/
-@media all and (max-width: 44em) {
+@media all and (max-width: 60em) {
 	body{
 		margin: .6em auto;
+		padding: 1em;
 	}	
 	.container{
 		padding: 0 4%;
@@ -26,7 +27,7 @@
 	}
 	/*portfolio-------------------------------*/
 	.portfolio{
-		padding: 4.4em 0;
+		padding: 2em 0;
 	}
 	.portfolio h2{
 		padding: 0 6%;
@@ -60,7 +61,7 @@
 		font-size: 1.48em;
 	}
 	footer{
-		padding: 1em 0;
+		padding: .2em 0;
 	}
 	footer span{
 		font-size: .6em;
