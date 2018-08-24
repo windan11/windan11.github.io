@@ -18,7 +18,7 @@
 		float: none;
 		margin: 0 auto;
 	}
-	#contact-btn{
+	.contact-btn{
 		width: 8em;
 		margin: .8em 0;
 		display: block;
