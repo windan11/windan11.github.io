@@ -14,5 +14,5 @@ Every decision is a choice, and every choice results in outcome that I may or ma
 
 Ever since, I dedicated myself to learn to code every day, whether that is 30 minutes of writing code or learning how to create a CSS grid, and etc. I’m making a small progress each and every day. 
 
-What is important is I’m still on this path and I'm happy to be on it.
+What is important is I’m still continuing this journey to learn everyday. 
 
