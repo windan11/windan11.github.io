@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Why I'm  Starting Blogging"
+title: "Why I Started Blogging"
 date: 2018-08-30
 ---
 
