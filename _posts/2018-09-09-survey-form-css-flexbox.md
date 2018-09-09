@@ -6,8 +6,7 @@ date: 2018-09-09
 
 The objective of the project is to use flexbox to have an image appears side by side with the form. The image and form will become responsive and force image to appear on top of the form at a certain width.
 
-![An image depicts the appearance of the layout in standard and in responsive view](https://www.windan11.github.io/assets/post/formlayout.png "Layout of form and image")
-
+[[https://www.windan11.github.io/assets/post/formlayout.png|alt=An image depicts the appearance of the layout in standard and in responsive view]]
 
 Before we move on, let's go over flex and what it does. Flex is a CSS property that allows items to shrink or grow to fit the content inside a container. In this case, we want to shrink the image and grow the form to fit the content upon decreasing our windows screen.
 
@@ -88,7 +87,7 @@ In an external CSS file, set your class container as display flex. Save your fil
 
 An image is expected to fill up on the left hand side, where is the image then?
 
-The image does not show up as expected because #img is a container and not a content item. By default, the container's height is 0px. Image will not appear, unless we explicitly defined a width of a container. Add some margin to #survey-form container to it some space.
+The image does not show up as expected because #img is a container and not a content item. By default, the container's height is 0px. Image will not appear, unless we explicitly defined a width of a container. Add some margin to #survey-form container to give it some space.
 
 ```css
 #container{
@@ -132,9 +131,10 @@ Lastly, we will use flex-shrink to shrink and expand our items to fill the conta
 
 Again, don't forget to adjust the #img container's height for the image to appear. 
 
-That is all to the project in terms of flexbox! The rest of the project is all about styling your layout and appearances. 
+That is all to the project in terms of flexbox! The rest of the project is about styling your layout and appearances. 
 
-In the second part to survey form, we will learn how to use CSS grid to layout the form content. 
+In the second part to survey form, we will learn how to use CSS grid to layout the content inside the form. 
 
 Cheers,
+
 Anh
