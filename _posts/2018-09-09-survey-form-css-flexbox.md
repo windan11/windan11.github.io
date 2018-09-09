@@ -15,62 +15,62 @@ The first step is to write HTML skeleton for the form. Here's my html code:
 
 ```html
 <form id="survey-form">
-			<h1 id="title">Survey Form</h1>
-			<p id="description">Let us know how we can improve Fictional Co.</p>
-			<label id="name-label" for="name">* Name: </label>
-			<input id="name" type="text" name="name" placeholder="Enter your name" required>
+	<h1 id="title">Survey Form</h1>
+	<p id="description">Let us know how we can improve Fictional Co.</p>
+	<label id="name-label" for="name">* Name: </label>
+	<input id="name" type="text" name="name" placeholder="Enter your name" required>
 
-			<label id="email-label" for="email">* Email: </label>
-			<input id="email" type="email" name="email" placeholder="Enter your Email" required>
+	<label id="email-label" for="email">* Email: </label>
+	<input id="email" type="email" name="email" placeholder="Enter your Email" required>
 
-			<legend>Which option best describes your current role?</legend>
-			<select id="dropdown">
-				<option selected disabled>Select an option</option>
-				<option value="student">Student</option>
-				<option value="job">Full-Time Job</option>
-				<option value="other">Other</option>
-			</select>
+	<legend>Which option best describes your current role?</legend>
+	<select id="dropdown">
+		<option selected disabled>Select an option</option>
+		<option value="student">Student</option>
+		<option value="job">Full-Time Job</option>
+		<option value="other">Other</option>
+	</select>
 
-			<legend>* How likely is that you would recommend Fictional Co. to a friend?</legend>
-			<div id="radio">
-				<div>
-					<input type="radio" id="recommend1" name="recommend" value="definitely" required>
-					<label for="recommend1"> Definitely</label>
-				</div>
-				<div>
-					<input type="radio" id="recommend2" name="recommend" value="maybe" required>
-					<label for="recommend2"> Maybe</label>
-				</div>
-				<div>
-					<input type="radio" id="recommend3" name="recommend" value="not-sure" required>
-					<label for="recommend3"> Not Sure</label>
-				</div>
-			</div>
+	<legend>* How likely is that you would recommend Fictional Co. to a friend?</legend>
+	<div id="radio">
+		<div>
+			<input type="radio" id="recommend1" name="recommend" value="definitely" required>
+			<label for="recommend1"> Definitely</label>
+		</div>
+		<div>
+			<input type="radio" id="recommend2" name="recommend" value="maybe" required>
+			<label for="recommend2"> Maybe</label>
+		</div>
+		<div>
+			<input type="radio" id="recommend3" name="recommend" value="not-sure" required>
+			<label for="recommend3"> Not Sure</label>
+		</div>
+	</div>
 
-			<legend>Things that should be improved in the future (Check all that apply):</legend>
-			<div id="checkbox">
-				<div>
-					<input type="checkbox" id="front-end" name="improvement" value="front-end">
-					<label for="front-end">Front-End Projects</label>
-				</div>
-				<div>
-					<input type="checkbox" id="back-end" name="improvement" value="back-end">
-					<label for="back-end">Back-End Projects</label>
-				</div>
-				<div>
-					<input type="checkbox" id="data-visual" name="improvement" value="data-visual">
-					<label for="data-visual">Data Visualization</label>
-				</div>
-				<div>
-					<input type="checkbox" id="challenges" name="improvement" value="challenges">
-					<label for="challenges">Challenges</label>
-				</div>
-			</div>
+	<legend>Things that should be improved in the future (Check all that apply):</legend>
+	<div id="checkbox">
+		<div>
+			<input type="checkbox" id="front-end" name="improvement" value="front-end">
+			<label for="front-end">Front-End Projects</label>
+		</div>
+		<div>
+			<input type="checkbox" id="back-end" name="improvement" value="back-end">
+			<label for="back-end">Back-End Projects</label>
+		</div>
+		<div>
+			<input type="checkbox" id="data-visual" name="improvement" value="data-visual">
+			<label for="data-visual">Data Visualization</label>
+		</div>
+		<div>
+			<input type="checkbox" id="challenges" name="improvement" value="challenges">
+			<label for="challenges">Challenges</label>
+		</div>
+	</div>
 
-			<legend>Any comments or suggestions?</legend>
-			<textarea placeholder="Enter your comment or suggestions here"></textarea>
-			<input id="submit" type="submit" value="Submit">
-		</form>
+	<legend>Any comments or suggestions?</legend>
+	<textarea placeholder="Enter your comment or suggestions here"></textarea>
+	<input id="submit" type="submit" value="Submit">
+</form>
 ```
 
 To have the image appears side by side with the form,  both image and the form needs to be child from the same parent, as such: 
@@ -95,7 +95,7 @@ The image does not show up as expected because #img is a container and not a con
 	display: flex;
 }
 #survey-form{
-  margin: 4%;
+	margin: 4%;
 }
 #img{
 	width: 40em;
@@ -116,17 +116,19 @@ To have the image and form in the same column, we need to set the parent element
 ```css
 @media only screen and (max-width: 600px){
 	#container{
-	  flex-wrap: wrap;
-  }
+		flex-wrap: wrap;
+	}
+	#survey-form{
+		flex-shrink: 1;
+	}
+	#img{
+		flex-shrink: 3;
+		height: 4.4em;
+	}
 }
 ```
 
 Lastly, we will use flex-shrink to shrink and expand our items to fill the container. The form will set to a flex-shrink of 1, and image to a flex-shrink of 3. The larger the value of flex-shrink,  the larger the image will expand in comparison to a value set for form. 
-
-#img{
-		flex-shrink: 3;
-		height: 4.4em;
-}
 
 Again, don't forget to adjust the #img container's height for the image to appear. 
 
