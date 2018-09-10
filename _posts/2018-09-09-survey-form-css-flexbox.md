@@ -8,7 +8,7 @@ The objective of the project is to use flexbox to have an image appears side by 
 
 <img src="/assets/post/formlayout.png" alt="An image depicts the appearance of the layout in standard and in responsive view" title="Survey Form Layout" />
 
-Before we move on, let's go over flex and what it does. Flex is a CSS property that allows items to shrink or grow to fit the content inside a container. In this case, we want to shrink the image and grow the form to fit the content upon decreasing our windows screen.
+Before we dive in, let's go over flex and what it does. Flex is a CSS property that allows items to shrink or grow to fit the content inside a container. In this case, we want to shrink the image and grow the form to fit the content upon decreasing our windows screen.
 
 The first step is to write HTML skeleton for the form. Here's my html code:
 
@@ -133,7 +133,7 @@ Again, don't forget to adjust the #img container's height for the image to appea
 
 That is all to the project in terms of flexbox! The rest of the project is about styling your layout and appearances. 
 
-In the second part to survey form, we will learn how to use CSS grid to layout the content inside the form. 
+In the second part to survey form, we will explore how to use CSS grid to layout the content inside the form. 
 
 Cheers,
 
