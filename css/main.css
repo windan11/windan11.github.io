@@ -111,3 +111,19 @@ footer{
 footer span{
 	font-size: .88em;
 }
+/*banner & blog-----------------*/
+#banner{
+	margin: 0;
+	padding: 7.2em 0;
+	text-align: center;
+	background-color: #f7f7f7;
+	width: 99vw;
+	position: relative;
+	left: 50%;
+	right: 50%;
+	margin-left: -50vw;
+	margin-right: -50vw;
+}
+#blog{
+	padding: 8% 10%;
+}
