@@ -8,13 +8,13 @@ When I was working on my earlier project, my HTML skeleton contained divs within
 
 I googled and the word "semantic" came up on several articles that I read. Consistent among those articles, the author emphasizes how important it is to use semantic HTML and why web developers should utilize it on every project. Here's what I learned: 
 
-###What is Semantic HTML?
+### What is Semantic HTML?
 
 Semantic HTML is an idea focusing on using HTML elements for what they are rather than how they may appear on the screen. It gives meaning the web pages rather than visual appearances. 
 
 Rather than using div in my project, I can use `article` to surround my blog entry, newspaper article, or post. Other examples of semantic HTML tags include `header`, `footer`, `h1` through `h6`, and more. With a few exceptions, tags such as `b` and `i` are not sematic, and only serve as styling purposes. 
 
-###Why is important to use it?
+### Why is important to use it?
 
 1. **Increase accessibility for all internet users.** For users who have visual impairment, they have difficulties navigating the web pages without digital assistants. Having a well-defined HTML will help most bots and digital assistants pull off the main content from a web page and inform users accurately what a company does or offers. For example, contents are easier to read or pull if it is inside an article container than inside a div. When there are divs, it is hard to determine which div container has more important than the other.
 2. **Better rank in search engines.** There are billions of websites on the internet. Search engines, such as google and yahoo, rely on markups to understand what elements are important and what are not. Imagine putting a business name within a paragraph tag instead of h1, it will get lost among other contents because the engine does not put much important to it. The search engine will put the business at the bottom of the results because it doesn't put important to paragraph tag.
