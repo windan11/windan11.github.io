@@ -6,7 +6,7 @@ date: 2018-09-09
 
 The objective of the project is to use flexbox to have an image appears side by side with the form. The image and form will become responsive and force image to appear on top of the form at a certain width.
 
-<img src="/assets/post/form.png " alt="An image depicts the appearance of the layout in standard and in responsive view" title="Survey Form Layout" />
+![An image depicts the appearance of the layout in standard and in responsive view](/assets/post/form.png)
 
 Before we dive in, let's go over flex and what it does. Flex is a CSS property that allows items to shrink or grow to fit the content inside a container. In this case, we want to shrink the image and grow the form to fit the content upon decreasing our windows screen.
 
@@ -59,10 +59,6 @@ The first step is to write HTML skeleton for the form. Here's my html code:
 		<div>
 			<input type="checkbox" id="data-visual" name="improvement" value="data-visual">
 			<label for="data-visual">Data Visualization</label>
-		</div>
-		<div>
-			<input type="checkbox" id="challenges" name="improvement" value="challenges">
-			<label for="challenges">Challenges</label>
 		</div>
 	</div>
 
