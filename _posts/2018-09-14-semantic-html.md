@@ -20,9 +20,9 @@ Rather than using div in my project, I can use `article` to surround my blog ent
 2. **Better rank in search engines.** There are billions of websites on the internet. Search engines, such as google and yahoo, rely on markups to understand what elements are important and what are not. Imagine putting a business name within a paragraph tag instead of h1, it will get lost among other contents because the engine does not put much important to it. The search engine will put the business at the bottom of the results because it doesn't put important to paragraph tag.
 3. **Organized and maintainable code.** As your web pages grow, managing your code can be difficult. To make your code readable and easier to manage, use appropriate tags to provide information in regards to the content.
 
-There are many articles on the internet emphasizing the importance of using meaning to HTML. One such article is Aaron Gustafson's ["Conversational Semantics"](https://alistapart.com/article/conversational-semantics) that discusses on how semantic HTML can convey different and meaningful sound on devices such as Alexa, Cortana, and Siri. I would suggest you give it a read; Aaron does a great job providing different examples to give you an idea why and how different tags sound different. 
+There are many articles on the internet emphasizing the importance of using meaningful HTML. One such article is Aaron Gustafson's ["Conversational Semantics"](https://alistapart.com/article/conversational-semantics) that discusses on how semantic HTML can convey different and meaningful sound on devices such as Alexa, Cortana, and Siri. I'd recommend you give it a read. Aaron does a great job providing different examples to give you an idea why and how different tags sound different. 
 
-To learn more about what is [Semantic HTML](https://internetingishard.com/html-and-css/semantic-html/), Oliver James does a tutorial on this subject with some great visuals that I enjoy looking at and learning from. 
+To learn more about [Semantic HTML](https://internetingishard.com/html-and-css/semantic-html/), Oliver James provides great visuals in his tutorial that I enjoy learning and looking. 
 
 Cheers,
 
