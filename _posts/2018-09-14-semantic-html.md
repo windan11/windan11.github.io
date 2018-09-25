@@ -22,7 +22,7 @@ Rather than using div in my project, I can use `article` to surround my blog ent
 
 There are many articles on the internet emphasizing the importance of using meaningful HTML. One such article is Aaron Gustafson's ["Conversational Semantics"](https://alistapart.com/article/conversational-semantics) that discusses on how semantic HTML can convey different and meaningful sound on devices such as Alexa, Cortana, and Siri. I'd recommend you give it a read. Aaron does a great job providing different examples to give you an idea why and how different tags sound different. 
 
-To learn more about [Semantic HTML](https://internetingishard.com/html-and-css/semantic-html/), Oliver James provides great visuals in his tutorial that I enjoy learning and looking. 
+To learn more about [Semantic HTML](https://internetingishard.com/html-and-css/semantic-html/), Oliver James provides great visuals in his tutorial on what is semantic HTML and how it should looks like. 
 
 Cheers,
 
