@@ -7,6 +7,14 @@
 	.container{
 		padding: 0 4%;
 	}
+	#navbar{
+		flex-direction: column;
+		padding: .4em 0;
+		justify-content: space-around;
+	}
+	#navbar nav{
+		padding: 0;
+	}	
 	/*intro------------------------------------*/
 	.intro{
 		padding: 4em .6em;
