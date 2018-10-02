@@ -1,15 +1,13 @@
 ---
 layout: post
 ---
+<h1> {{ page.title }} </h1>
+<span class="meta"> {{ page.date | default: "%b %-d, %Y" }} </span>
 
 <article class="post">
-   <h2> {{ post.title }} </h2>
-  
-   {% assign date_format = site.cayman-blog.date_format | default: "%b %-d, %Y" %}
-  <span class="post-meta">{{ post.date | date: date_format }}</span>
   
   <div>
     {{ content }}
   </div>
-  
+
 </article>
