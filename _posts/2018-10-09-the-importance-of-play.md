@@ -1,6 +1,7 @@
 ---
 layout: post
-title: The Importance of Play
+title: "The Importance of Play"
+date: 2018-10-09
 ---
 
 The other day, I came home exhausted and lethargic. 
