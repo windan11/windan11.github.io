@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "CSS Flexbox in Form - Part 1"
 date: 2018-09-09
 ---
