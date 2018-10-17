@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "My Coding Journey"
 date: 2018-08-23
 ---
