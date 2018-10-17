@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Why I Started Blogging"
 date: 2018-08-30
 ---
