@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Semantic HTML - Why you should use it?"
 date: 2018-09-14
 ---
