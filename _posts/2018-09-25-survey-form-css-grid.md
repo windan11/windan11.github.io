@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "CSS Grid in Form - Part 2"
 date: 2018-09-25
 ---
