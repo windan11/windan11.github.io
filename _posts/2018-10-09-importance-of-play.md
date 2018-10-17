@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: "The Importance of Play"
 date: 2018-10-09
 ---
