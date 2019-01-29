@@ -15,3 +15,5 @@ Mark Twain said this famous quote, "Behind every man, there is a successful woma
 Well, behind me, there is an incredible group of people who cheer and support me to get where I am today. And that is something that I could not buy or get easily. 
 
 I'm happy to have an opportunity to grow, to get guidance and feedback, and to prove myself that I can do anything as long I put my mind and heart into it. 
+
+I promise that I will be back to web development and continue to do more projects. This is a promise I made to myself this year- to take baby steps to my dreams and goals. 
